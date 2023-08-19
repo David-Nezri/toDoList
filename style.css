@@ -1,0 +1,110 @@
+
+body{
+    background-color:#566573; 
+   margin: 0;
+   border: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+input{
+    height: 50px;
+   
+}
+.allPage{
+   background-color:#566573 
+}
+/* main scroll bar style */
+*::-webkit-scrollbar{
+   background-color: white;
+   border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track{
+    background-color: whitesmoke;
+   
+}
+*::-webkit-scrollbar-track:hover{
+   background-color: whitesmoke;
+   border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb{
+   background-color: rgba(128, 128, 128, 0.432);
+   border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+   background-color: rgb(24, 27, 211);
+   border-radius: 10px;
+}
+
+
+h1{    
+   font-family: 'Roboto Mono', monospace , cursive;      
+}
+
+.sectioncontainer{
+   
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+    padding: 5px;
+    transition-delay: 300ms;
+    transition-duration: 700ms;
+    
+    
+    background-color: #808B96
+   }
+   
+   .sectioncontainer >div{
+      
+      margin-top: 10px;
+      border-style:solid;
+      border-radius: 5px;
+      font-family: 'Roboto Mono', monospace;
+      text-decoration: underline;
+      text-align:center;
+      overflow: scroll;
+      width: 300px;
+      height: 300px;
+      font-size: 22px; 
+      
+      
+      
+   }
+   
+   .sectioncontainer >div >button {
+      
+      background-color: aliceblue;
+      width: 100%;
+      height: 70px;
+      border:none;
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      font-family: 'Roboto Mono', monospace;
+      
+   }
+   
+   .sectioncontainer > div >button:hover {
+      font-size: 25px;
+      color: rgb(177, 50, 50); 
+      transition: 0.2s;
+   background-repeat:no-repeat;
+}
+
+.sectioncontainer:hover{
+   
+color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
